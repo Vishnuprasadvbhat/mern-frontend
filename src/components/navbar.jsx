@@ -12,9 +12,8 @@ export const Navbar = () => {
       <img src={assets.logo} alt="" className='w-28 sm: w-32'/>
 
 
-      <button onClick={ () => {
-        navigate('/login')
-      }}
+      <button onClick={ () => {navigate('/login')}}
+      
       className='flex items-center gap-2 border-gray-500
       rounded-full px-6 py-2 text-gray-800 hover:bg-gray-100
       transition-all'>Login 
